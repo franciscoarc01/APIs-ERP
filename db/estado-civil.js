@@ -1,4 +1,4 @@
-import { getDatabaseInstance } from "./config.db.js";
+import { getDatabaseInstance } from "./db.config.js";
 
 const lista_estados_civiles = async () => {
     const pool = getDatabaseInstance();
