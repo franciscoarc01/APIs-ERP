@@ -1,4 +1,4 @@
-import { getDatabaseInstance } from "./db.config.js";
+import { getDatabaseInstance } from "./db.connection.js";
 
 const lista_generos = async () => {
     const pool = getDatabaseInstance();
